@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Vue Playpen</title>
+    <link rel="icon" href="./favicon.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Vue.js 3.0 (development build) -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vue/3.2.19/vue.global.js"></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.15/tailwind.css">
+
+</head>
+
+<body>
+
+<div id="app">
+</div>
+
+<script type="module">
+    import app from './app.js'
+    const {createApp} = Vue;
+    const vm = createApp(app).mount('#app');
+    
+</script>
+
+</body>
+</html>
